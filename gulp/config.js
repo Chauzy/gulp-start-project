@@ -7,6 +7,7 @@ const config = {
     sass: `${srcPath}/scss`,
     js: `${srcPath}/js`,
     fonts: `${srcPath}/assets/fonts`,
+    // video: `${srcPath}/assets/video`,
     images: `${srcPath}/assets/images`,
     iconsMono: `${srcPath}/assets/icons/mono`,
     iconsMulti: `${srcPath}/assets/icons/multi`,
@@ -19,6 +20,7 @@ const config = {
     css: `${destPath}/css`,
     js: `${destPath}/js`,
     fonts: `${destPath}/fonts`,
+    // video: `${destPath}/video`,
     images: `${destPath}/images`,
   },
 
