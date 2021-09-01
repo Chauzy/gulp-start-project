@@ -1,4 +1,4 @@
-const srcPath = '#src';
+const srcPath = 'src';
 const destPath = 'build';
 
 const config = {
