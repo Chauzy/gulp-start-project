@@ -7,3 +7,17 @@ html(lang="en")
     title Document
   body
 
+    -
+      const icons = [
+        'mail',
+        'search',
+        'analytics',
+        'marketing'
+      ]
+
+    - for(let i = 0; i < icons.length; i += 1)
+      svg
+        use(xlink:href="images/sprites/sprite-mono.svg#" + icons[i])
+
+      svg
+        use(xlink:href="images/sprites/sprite-multi.svg#" + icons[i])

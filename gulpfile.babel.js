@@ -7,6 +7,7 @@ import { pugBuild, pugWatch } from './gulp/tasks/pug';
 import { sassBuild, sassWatch } from './gulp/tasks/styles';
 import { assetsBuild, assetsWatch } from './gulp/tasks/assets';
 import { imagesBuild, imagesWatch } from './gulp/tasks/images';
+import { spritesBuild, spritesWatch } from './gulp/tasks/sprites';
 
 config.setEnv();
 
@@ -18,6 +19,7 @@ export const build = gulp.series(
     sassBuild,
     assetsBuild,
     imagesBuild,
+    spritesBuild,
   ),
 );
 
@@ -30,7 +32,8 @@ export const watch = gulp.series(
     sassWatch,
     assetsWatch,
     imagesWatch,
+    spritesWatch,
   ),
 );
 
-exports.imagesWatch = imagesWatch;
+exports.spritesBuild = spritesBuild;
